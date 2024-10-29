@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <!-- CSS 추가 -->
+  <style>
+    .target {
+     background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+
+	<!-- th:class 속성에 삼항연산자를 추가하여, no가 5의 배수라면 클래스 설정 -->
+	<ul>
+		<th:block th:each="dto : ${list}">
+			<!-- 조건이 true이면 'target' 클래스 적용 -->
+			<li th:class="${dto.no%5==0}?target:''" th:text="${dto}"></li>
+		</th:block>	  
+	</ul>
+</body>
+</html>

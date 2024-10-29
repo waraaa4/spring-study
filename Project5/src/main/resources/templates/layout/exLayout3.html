@@ -1,0 +1,45 @@
+<!-- 템플릿 레이아웃 만들기 -->
+
+<!DOCTYPE html>
+
+<!-- 상단과 하단을 블록태그로 감싸기 -->
+<!-- setContent함수로 content라는 파라미터 받기 -->
+<th:block th:fragment="setContent(content)">
+
+	<style>
+.header {
+	height: 20vh;
+	background-color: aqua; /* pink로 변경 */
+}
+
+.content {
+	height: 30vh;
+	background-color: lightgray;
+}
+
+.footer {
+	height: 10vh;
+	background-color: green;
+}
+</style>
+
+	<body>
+
+		<div class="header">
+			<h1>HEADER</h1>
+		</div>
+		<div class="content">
+			<!-- 파라미터로 전달된 content 출력 -->
+			<th:block th:replace="${content}">
+			</th:block>
+		</div>
+		<div class="footer">
+			<h1>FOOTER</h1>
+		</div>
+
+	</body>
+
+</th:block>
+<!-- 블록태그의 끝태그 -->
+
+</html>

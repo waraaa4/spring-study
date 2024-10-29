@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;BaseEntity.java&apos; to &apos;projectTest1017/src/main/java/com.example.demo.entity&apos;&#x0D;&#x0A;- Original project: &apos;project07&apos;&#x0D;&#x0A;- Destination element: &apos;projectTest1017/src/main/java/com.example.demo.entity&apos;&#x0D;&#x0A;- Original element: &apos;com.example.demo.entity.BaseEntity.java&apos;" description="Copy compilation unit" destination="=projectTest1017/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.example.demo.entity" element1="/src\/main\/java=/gradle_scope=/main=/=/gradle_used_by_scope=/main,test=/&lt;com.example.demo.entity{BaseEntity.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1729125509401" units="1" version="1.0"/>
+</session>

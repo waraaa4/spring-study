@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>컨텐츠 출력하기</h1>
+    
+    <!-- th:text 속성을 사용하여 데이터 출력 -->
+    <!-- 타임리프 렌더링 후: <p>안녕하세요</p> -->
+    <p th:text="${msg1}"></p> 
+    
+    <!-- 인라인표현식 사용하여 직접 데이터 출력 -->
+    <!-- 타임리프 렌더링 후: <p>반가워요</p> -->
+    <p>[[${msg2}]]</p>
+</body>
+</html>
